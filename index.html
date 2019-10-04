@@ -1,22 +1,40 @@
 <html>
-<head>
-<title>LOGIN</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-<body>
-    <div class="loginbox">
-
-        <h1>LOGIN</h1>
-        <form>
-            <p>Username</p>
-            <input type="text" name="" placeholder="Enter Username">
-            <p>Password</p>
-            <input type="password" name="" placeholder="Enter Password">
-            <input type="button" onclick="window.location.href = 'welcome.html';" value="Login"/>
-            <p>New user?<a href="Register.html">Click here to Register?</a></p>
-        </form>
-        
-    </div>
-
-</body>
-</head>
+    <head>
+        <title></title>
+        <script>
+            function index()
+            {
+                document.getElementById("slogin").style.height=20px;
+            }
+        </script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="header">
+            <h1>Hackathon</h1>
+        </div>
+        <div id="hl"></div>
+        <div class="canvas">
+            <div class="login">
+                <from>
+                    <table border="0px" cellpadding="0px">
+                        <tr align="center">
+                            <td width="50%"><button id="slogin" onclick="index()">Student</button></td>
+                            <td width="50%"><input type="button" id="alogin" value="Admin"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" width="100%" align="center"><input type="text" id="uid" placeholder="Username"></td>
+                        </tr>
+                        <tr><td width="100%" colspan="2" align="center"><input type="password" id="pass" placeholder="Password"></td></tr>
+                        <tr height="50px">
+                            <td align="center" colspan="2">
+                                    <button type="button" id="signin" class="btn btn-success">Login</button>
+                            </td>
+                        </tr>
+                    </table>
+                </from>
+            </div>
+        </div>
+    </body>
 </html>
