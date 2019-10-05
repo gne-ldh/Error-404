@@ -59,7 +59,7 @@ Best of Luck.......!!!<br>";
   
   <tr>
     <td height="296" valign="top"><div align="center">
-        <h1 class="style8"><marquee>Team Error 404</marquee></h1>
+        <h1 class="style8">Team Error 404</h1>
       <span class="style5"></span>        </span>
         <param name="movie" value="english theams two brothers.dat">
         <param name="quality" value="high">
@@ -68,7 +68,7 @@ Best of Luck.......!!!<br>";
         <param name="BGCOLOR" value="#FFFFFF">
 <p align="left" class="style5">&nbsp;</p>
       <blockquote>
-          <p align="centre" class="style5"><span class="style7">Welcome to Computer Based Examination created by team Error 404 by using  MySql,HTML,PHP,JAVASCRIPT</span></p>
+          <p align="centre" class="style5"><span class="style7">Welcome to Computer Based Examination created by team Error 404 by using  MySql,HTML,PHP,JAVASCRIPT...</span></p>
       </blockquote>
     </div></td>
     		<table align="center" border="0" WIDTH="50%" height="250">
@@ -98,7 +98,7 @@ Best of Luck.......!!!<br>";
 				<th class="errors">
 					<input class="btn btn-danger "type="submit" name="submit" id="submit" Value="Login"/>
 				
-        <a class="btn btn-success " href="signup.php">Click here to Register</a></th>
+        <a class="btn btn-success" href="signup.php">Click here to Register</a></th>
       </table>
       <div align="center">
         <p class="style5"><img src="images/topleft.jpg" width="134" height="128">          </p>
