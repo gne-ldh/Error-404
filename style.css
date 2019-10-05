@@ -1,0 +1,72 @@
+/*@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');*/
+
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    width:100%;
+    height:90px;
+    background-color: #47e03c;
+    float:left;
+}
+
+.header h1{
+    float:left;
+    position: relative;
+    bottom:15px;
+    left:90px;
+    font-size: 50px;
+    color:white;
+    text-shadow: black 2px 3px 4px;
+}
+
+#hl{
+    width:100%;
+    height:5px;
+    background-color: black;
+    float:left;
+}
+
+input{
+    border: 1px solid grey;
+}
+
+.login{
+    float:left;
+    width:100%;
+    margin-top:100px;
+    align-content: center;
+}
+
+table{
+    width:250px;
+    height:250px; 
+    margin-left:40%;
+    align-content: center;
+    border:1px solid black;
+    padding:0px;
+}
+
+#slogin,#alogin{
+    background-color:transparent;
+    border:none;
+    font-size: 25px;
+    width:100%;
+    height:100%;
+    background-color: #47e03c;
+    border:1px solid black;
+    font-weight:bold;
+}
+
+ #uid,#pass{
+    border:none;
+    border-bottom:2px solid grey;
+    height:35px;
+}
+
+#signin{
+    margin-bottom:10px;
+}

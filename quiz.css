@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:500,700&display=swap');
+
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+.style1 {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.nextquestion{
+	height:35px;
+	width:120px;
+	border-radius:10px;
+	background-color: forestgreen;
+	color:white;
+	margin-top:20px;
+	font-size:16px;
+}
+
+.nextquestion:hover{
+	background-color: darkgreen;
+	box-shadow:0px 4px 5px darkgreen;
+}
+
+.style2 {
+	color: #c21919;
+	font-weight: bold;
+	font-size:35px;
+}
+
+.styleform{
+	margin-top:30px;
+	margin-left:20%;
+}
+.result{
+	height:35px;
+	width:120px;
+	border-radius:10px;
+	background-color: #3385ff;
+	color:white;
+	margin-top:20px;
+	font-size:16px;
+}
+.result:hover{
+	background-color: #1a75ff;
+	box-shadow: 2px 4px 4px #1a75ff;
+}
+.style4 {
+	color: #000000;
+	font-weight: bold;
+}
+.style5 {color: #990033}
+.style6 {color: #ECE9D8}
+.style7 {
+	color: #993300;
+	font-weight: bold;
+	font-size: 20px;
+}
+.style8 {
+	color:#d24dff;
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+	margin-left: 20px;
+}
+a:link {
+	color: #330066;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFCC00;
+	text-decoration: underline;
+}
+a:visited {
+	color: #330066;
+	text-decoration: none;
+}
+.head1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #FF0000;
+	text-align: center;
+	font-weight: bold;
+}
+.errors {
+
+	color: #FF0000;
+	font-weight: bold;
+}
+.tot {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #000000;
+}
+.tot {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000000;
+	
+}
+.tans {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color:#00CC66 ;
+}
+.fans {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color:#FF0000 ;
+}
+
