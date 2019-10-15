@@ -67,15 +67,13 @@ else
 				{
 							$_SESSION[trueans]=$_SESSION[trueans]+1;
 				}
-				echo "<h1 class=head1> Result</h1>";
+				echo "<h1 class=head1 style=font-size:34px;> Result</h1>";
 				$_SESSION[qn]=$_SESSION[qn]+1;
 				echo "<Table align=center><tr class=tot><td>Total Question<td> $_SESSION[qn]";
-				echo "<tr class=tans><td>True Answer<td>".$_SESSION[trueans];
+				echo "<tr class=tans><td>Correct Answers<td>".$_SESSION[trueans];
 				$w=$_SESSION[qn]-$_SESSION[trueans];
-				echo "<tr class=fans><td>Wrong Answer<td> ". $w;
+				echo "<tr class=fans><td>Wrong Answers<td> ". $w;
 				echo "</table>";
-				mysqli_query($con,"insert into mst_result(login,test_id,test_date,score) values('$login',$tid,'".date("d/m/Y")."',$_SESSION[trueans])") or die(mysqli_error());
-				echo "<h1 align=center><a href=review.php> Review Question</a> </h1>";
 				unset($_SESSION[qn]);
 				unset($_SESSION[sid]);
 				unset($_SESSION[tid]);
@@ -95,7 +93,8 @@ exit;
 }
 mysqli_data_seek($rs,$_SESSION[qn]);
 $row= mysqli_fetch_row($rs);
-echo "<form name=myfm method=post action=quiz.php class=styleform>";
+echo "<div class=box>";
+echo "<form name=myfm method=post action=quiz.php class=styleform align=center id=f1>";
 echo "<table width=100%> <tr> <td width=30>&nbsp;<td> <table border=0>";
 $n=$_SESSION[qn]+1;
 echo "<tR><td><span class=style2>Que ".  $n .": $row[2]</style>";
@@ -103,12 +102,13 @@ echo "<tr><td class=style8><input type=radio name=ans value=1>$row[3]";
 echo "<tr><td class=style8> <input type=radio name=ans value=2>$row[4]";
 echo "<tr><td class=style8><input type=radio name=ans value=3>$row[5]";
 echo "<tr><td class=style8><input type=radio name=ans value=4>$row[6]";
-
+echo "</div>";
 if($_SESSION[qn]<mysqli_num_rows($rs)-1)
 echo "<tr><td><input type=submit name=submit value='Next Question' class=nextquestion></form>";
 else
 echo "<tr><td><input type=submit name=submit value='Get Result' class=result></form>";
 echo "</table></table>";
 ?>
+<img src="images/gnelogo.png" class="watermark">
 </body>
 </html>
